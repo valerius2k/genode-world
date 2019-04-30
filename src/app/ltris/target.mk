@@ -1,5 +1,7 @@
 TARGET = ltris
-LIBS   = libc libm stdcxx sdlmain sdl sdl_mixer
+LIBS   = base libc libm stdcxx \
+         sdlmain sdl sdl_mixer \
+         zlib vfs
 
 LTRIS_DIR := $(call select_from_ports,ltris)/src/app/ltris
 

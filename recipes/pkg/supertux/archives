@@ -1,0 +1,11 @@
+_/raw/supertux
+_/src/supertux
+_/src/libc
+_/src/sdl
+_/src/sdl_image
+_/src/sdl_mixer
+_/src/zlib
+_/src/vfs
+_/src/libpng
+_/src/jpeg
+_/src/stdcxx

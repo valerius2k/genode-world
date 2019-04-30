@@ -30,3 +30,5 @@ set boot_modules {
 }
 
 source ${genode_dir}/repos/world/run/nitpicker_app.inc
+
+# import_from_depot [depot_user]/pkg/supertux

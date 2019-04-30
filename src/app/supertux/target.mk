@@ -9,12 +9,12 @@ vpath %.cpp $(SUPERTUX_DIR)/src
 
 INC_DIR += $(SUPERTUX_DIR)/src
 
-LIBS += stdcxx
+LIBS += stdcxx base libc libm
 LIBS += sdl sdlmain sdl_image sdl_mixer zlib
 
-$(TARGET): supertux_data.tar
-supertux_data.tar:
-	$(VERBOSE)cd $(SUPERTUX_DIR); tar cf $(PWD)/bin/$@ data
+#$(TARGET): supertux_data.tar
+#supertux_data.tar:
+#	$(VERBOSE)cd $(SUPERTUX_DIR); tar cf $(PWD)/bin/$@ data
 
 CC_OPT += -DNOOPENGL -DDATA_PREFIX='"/data"' -fpermissive
 
